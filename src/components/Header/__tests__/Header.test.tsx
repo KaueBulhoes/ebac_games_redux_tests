@@ -1,6 +1,6 @@
 import { screen } from '@testing-library/react'
-import Header from '../Header'
-import { renderizaComProvider } from '../../utils/tests'
+import Header from '..'
+import { renderizaComProvider } from '../../../utils/tests'
 
 describe('Testes para o Header', () => {
   test('Deve renderizar', () => {
